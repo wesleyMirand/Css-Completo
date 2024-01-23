@@ -1,0 +1,29 @@
+/*
+p{  tag 
+    color: #f00;
+    font-size: 20pt;
+}
+
+#p1{  ID 
+    color: #00f;
+}
+
+.txt{  CLASSE: posso usar varios elementos nessa classe 
+    color: #0f0;
+    font-size: 30pt;
+}
+
+h4, h5, h6{ multiplas tag 
+    color:  #800 ;  
+    font-size: 15pt;
+} */
+
+p, h1, h2, h3, h4, h5, h6{
+    color: #F00; /* cor da fonte */
+    font-size: 20pt; /* tamanho da fonte */
+    font-weight: lighter; /* Peso da fonte negrito */
+}
+
+.titulo{
+    color: #00F;
+}
