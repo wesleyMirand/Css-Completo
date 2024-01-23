@@ -1,0 +1,21 @@
+#d1, #d2, #d3, #pa1{
+    border: 10px dotted #000;   /*com border facilita 3configuracao, dotted pontilhada borda, 10 px expressura linha, solid tipo de borda linha continua, #000 cor da borda,posso especificar expressura da linha, tipo de linha e cor */
+    padding: 0px/*topo*/ 100px/*direita*/ 50px/*baixo*/ 10px/*esquerda*/ ; /*expessura 35px margem interna, controla margem interna na hora que atualiza o padding funciona */
+    background-image: url(olho.avif);
+}
+
+#d1{
+    background-clip: border-box; /* inicio da borda bem no comecinho, cordena x -> e y descendo , borda faz parte do background , caixa da borda e back preenche ela.*/
+}
+
+#d2{
+    background-clip: padding-box; /* comportamento diferente, nao considera a area da borda com parte do background , começa a pos a borda*/
+}
+
+#d3{
+    background-clip: content-box; /* adicionar um conteudo nas div, ela aplica o background aonde tiver conteudo, tenque adidiconar algo dentro das div, tipo texto */
+}
+
+#pa1{
+    background-clip: padding-box; /*paragrafo, o fundo nao começa aonde tem espaco na borda, nao e propriedade de div*/
+}
