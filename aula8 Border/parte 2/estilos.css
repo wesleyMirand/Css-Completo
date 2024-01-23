@@ -1,0 +1,36 @@
+p{
+    width: 300px;
+
+    border-top-width: 20px; /*largura */
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+
+    border-top-style: solid; /* solid para linha tipo todas*/
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+
+    border-top-color: #000 ; /*cor */
+    border-right-color: #f00 ;
+    border-bottom-color: #0f0 ;
+    border-left-color: #00f ;
+
+}
+
+/* border: #000 solid 10px; Border normal 
+    border-top: #000 solid 10px; somenter para o topo de cima.
+      border-bottom : #000 solid 10px; de baixo
+         border-right: #000 solid 10px; direita
+            border-left: #000 solid 10px; esquerda
+
+      
+
+    resumo do trabalho a cima :
+    border-top: #000 solid 20px;
+    border-bottom: #cf1cb7 double 20px;
+    border-right: #4c1ccf dotted 20px;
+    border-left: #ce1f18 groove 20px;    
+
+
+      */
