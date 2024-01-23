@@ -1,0 +1,44 @@
+#d1, #d2{ /*divs */
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #000 solid 20px;
+}
+
+#d1{
+    border-color: #f00;
+}
+
+#d2{
+    border-style: dotted;
+}
+
+
+p{ /* nao sao div, sao paragrafos elementos p */
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #000 solid 20px;
+}
+
+/*
+#d1{
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border-style: solid ;  
+    border-width: 20px;
+    border-color: #f00;
+}
+
+#d2{
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+    border: #00f solid 20px ;
+}
+*/
+
+ /* tipo de borda: solid, dotted pontilhada, 
+    dashed tracejada, doouble 2 linha, groove 3d, ridge tipo 3d invertido ,
+     inset alto relevo, outset alto relevo, none sem bordas, hidden oculto  */
