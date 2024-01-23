@@ -1,0 +1,40 @@
+body{/*plano de fundo do body */
+    background-color: rgb(14, 1, 63);
+    background-image: url(olho.avif), url(icone.png);
+    background-size: 300px , 100px;
+    background-repeat: no-repeat, repeat;
+    background-position: 500px 35px. 0px 0px;
+}
+
+p{
+    font-size: 40pt;
+    background-image: url(logo.jpg);
+    background-repeat: repeat-x;
+    background-position: 0px;
+    color: rgb(223, 114, 114);
+    background-color: blanchedalmond;
+}
+
+/* background-size: 400px 100px; altura e largura 
+  
+
+       background-repeat: no-repeat; nao repet a imagem
+       repeat-x : somente na horizontal lado -> 
+       repeat-y : somente descendo 
+       o normal padrao é so repeat 
+
+
+   background-position: left top; padrao
+   right top : direita 
+   right bottom: direita embaixo 
+   200px horizontal e 0px vertical 
+   
+   background-color: black cor de fundo 
+
+       background-color: rgb(14, 1, 63);
+    background-image: url(olho.avif), url(icone.png);
+    background-size: 300px , 100px;
+    background-repeat: no-repeat, repeat;
+    background-position: 500px 35px. 0px 0px;   IMAGEM1,IMAGEM2 . apos a virgula
+   
+   */
