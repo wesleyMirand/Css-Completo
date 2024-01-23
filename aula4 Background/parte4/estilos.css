@@ -1,0 +1,9 @@
+body{
+    background: #fff url(logo.jpg)  no-repeat center 0px/ 400px; /* 4propriedades em uma so */
+
+}
+
+/* background: #fff url(logo.jpg)  no-repeat 0px 0px/ 100%; imagem se ajusta
+
+background: #fff url(logo.jpg)  no-repeat 0px 0px/ 400px ;  normal no canto*/  
+ 

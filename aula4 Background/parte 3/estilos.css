@@ -1,0 +1,10 @@
+body {
+    background-image: url(logo.jpg), url(olho.avif);
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, 30px;
+    background-attachment: scroll, fixed ; /* nao rolar : fixed , scroll rola normal */
+}
+
+p{
+    color: rgb(243, 239, 247);
+}
