@@ -1,0 +1,20 @@
+#d1, #d2 , #d3{
+    width: 160px;
+    height:160px;
+    border: #000 solid 20px;
+    padding: 100px;
+}
+
+#d1 {
+    border-radius: 40px; /* a redonda dos campos */
+}
+
+#d2{
+    border-radius: 0px /*superior esquerda */ 
+     60px /*superior direita */  0px /* inferior direita*/
+     60px/*inferior esquerda */;
+}
+
+#d3{
+    border-radius: 100%; /* a redonda dos campos */
+}
