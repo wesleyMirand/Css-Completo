@@ -1,0 +1,4 @@
+p{
+    border: 60px solid ;
+    border-image: url(bolinha.png) 30 round /*stretch estica*/ ;
+}
