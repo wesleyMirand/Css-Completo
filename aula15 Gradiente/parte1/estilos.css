@@ -1,0 +1,40 @@
+#dv1{
+    width: 300px;
+    height: 300px;
+    border: 1px #000 solid;
+    background: linear-gradient(to right, #f00, #ff0, #000, #00f ); /* linha reta -> vermelho para o amarelo 
+    para baixo: (to bottom, #f00, #ff0 ) 
+    cima : (to top, #f00, #ff0 )
+    diagonal deg(angulo) : (45deg, #f00, #ff0 )
+    
+    
+    background: linear-gradient, vermelho posicao 0%,
+    amarelo posicao 25%,  azul finalize final da forma 100%(180deg , #f00 0%, #ff0, #000, #00f );
+    
+
+
+    */
+}
+
+#dv3{
+    width: 600px;
+    height: 300px;
+    border: 1px #000 solid;
+    background: repeating-radial-gradient( circle,  #f00 0% , #ff0 20%); 
+}
+
+/* radial circular */
+#dv2{
+    width: 600px;
+    height: 300px;
+    border: 1px #000 solid;
+    background: radial-gradient( circle,  #f00 0% , #ff0 50%); 
+}
+
+h1{
+    font-size: 100pt;
+    background: linear-gradient( 90deg,  #f00 , #ff0 ); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
