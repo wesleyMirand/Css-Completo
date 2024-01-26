@@ -1,0 +1,45 @@
+a{
+    text-decoration: none; /*tira sublinhado */
+    color: #fff; /* independente do estado vao ser preto */
+    font-size: 20px; /*tamanho da fonte */
+    background-color: #006;
+    padding: 20 px;
+
+}
+
+a:hover{
+    background-color: #88f; /*configuracao direta da tag a */
+}
+
+/*
+
+
+    display: table-cell; celular de tabela 3 botao 
+
+ display: block; pula linha automaticamente 
+
+a:link, a:visited, a:active{ 
+
+}
+
+a:link configurar forma separada link , links nao visitados 
+
+forma resumida :    a{
+                           }
+
+a:visited{       ja visitados
+
+}
+
+a:active {  estao sendo visitados 
+
+}
+
+a:hover{ mudar cor do link, mostrado quando o mouse sobre ele ,link padrao
+
+}
+*/
+
+
+/* o link tem estados: nao visitado, ja foi visitado, esta sendo visitado, mouse sobre
+link */
