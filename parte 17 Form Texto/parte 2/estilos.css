@@ -1,0 +1,10 @@
+
+p{
+    font-family: pacifico,arial , 'Times New Roman', sans-serif; /*tipos de fonte, se nao acha uma, acha a segunda ...*/
+    font-style: italic; /*Ou oblique fica mais curvado */
+    font-weight: bold; /*  bold negrito, light tira o negriton*/
+    font-size: 30px; /* tamanho da fonte */
+    font-variant: small-caps; /* oque é maisculo, fica maior ainda, ou usa normal */
+
+
+}
