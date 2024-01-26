@@ -1,0 +1,57 @@
+p{
+    color: #000;
+    text-decoration: none;
+    text-transform: lowercase; /*tudo minusculo */
+    text-align: justify;
+}
+
+.p1{ /* configura clasa com . em primeiro chamando ela .p1 */;
+    text-align: left;
+    text-decoration:none; /*text tira o sublinhado dos link , none sem decoracao */
+}
+
+.p2{
+    text-align: right;
+    text-decoration: underline; /*underlina texto embaixo sublinhado */
+}
+
+.p3{
+    text-align: center;
+    text-decoration: overline ; /* linha encima */
+}
+
+.p4{
+    text-align:  justify; /* tanto na esquerda como na direita */
+    text-decoration: line-through; /* riscado*/
+}
+
+a{
+    text-decoration: none;
+}
+
+.p5{
+    text-transform: uppercase; /*deixa maiusculo*/
+    text-indent: 100px; /* da um espaco no inicio do texto , paragrafo*/
+    letter-spacing: 3px; /* da um espaçao em cada palavra*/
+    line-height: 3; /* espacamento altura das linhas, 1 padrao */
+}
+
+.p6{
+    text-transform: capitalize; /*todas primeira letras comecaram em maiusculo*/
+    direction: rtl; /*alinhamento distancia da direita para esquerda, ltr esquerda para direita */
+    word-spacing: 50px; /*espaco entre as palavras*/
+}
+
+div{
+    width: 350px;
+    height: 150px;
+    border: 1px solid #000;
+    white-space: normal; /* se por normal fica normal quebrando linha e se nowrap não quebra a linha de texto, a nao ser que use br */
+    overflow: auto; /* hiden tira tudo que sai do campo, auto so poi rolagem necessaria e scrool poi rolagem que nao estava cabendo dentro do elemento*/
+    word-break: break-all; /* break pula a linha necessaria  pala-   vra,  o normal usa barra de rolagem*/
+}
+
+.p8{
+    text-align-last: ; /*alinha a esquerda padrao left e a direta right, centralizada center  */
+}
+
