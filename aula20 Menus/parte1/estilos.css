@@ -1,0 +1,23 @@
+#obMenu{
+    width: 100%; 
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none; 
+    background-color: #400; /* cor fundo */
+    color: #fff; /* cor letra */
+    padding: 0px;  
+    margin: 0px;
+    display: table-cell; /* celula tabela mais controle de tamanho , alinhamento  */
+    text-align: center; /*  */
+    vertical-align: middle; /* o texto vai estar no centro da tabela */
+    width: 200px; /* tamanhp */
+    height: 40px; /* altura */
+    font-size: 18px ; /*  tamanho fonte */
+}
+
+a:hover{ /* mouse encima hover */
+    background-color: #b44;
+}
