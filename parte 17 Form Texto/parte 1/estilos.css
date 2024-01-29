@@ -52,6 +52,6 @@ div{
 }
 
 .p8{
-    text-align-last: ; /*alinha a esquerda padrao left e a direta right, centralizada center  */
+    text-align-last: right; /*alinha a esquerda padrao left e a direta right, centralizada center  */
 }
 

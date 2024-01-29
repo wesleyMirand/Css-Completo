@@ -11,11 +11,11 @@ a{
     padding: 0px;  
     margin: 0px;
     display: table-cell; /* celula tabela mais controle de tamanho , alinhamento  */
-    text-align: center; /*  */
+    text-align: center; 
     vertical-align: middle; /* o texto vai estar no centro da tabela */
     width: 200px; /* tamanhp */
     height: 40px; /* altura */
-    font-size: 18px ; /*  tamanho fonte */
+    font-size: 18px; /*  tamanho fonte */
 }
 
 a:hover{ /* mouse encima hover */

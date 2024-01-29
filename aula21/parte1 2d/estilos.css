@@ -1,0 +1,20 @@
+#dv1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+   /* transform: translate(0px, 0px);move*/
+   /*transform: rotate(0deg) ; gira*/
+   /*transform: scale(2); dobra*/
+   /*transform: skewX(20deg); */
+    /*transform: skewX(15deg) ; */
+    /*transform: skewX(-45degm 0deg) */
+    /*transform : matrix(scaleX, skewX, scaleY, translateX, translate ) */
+
+    /*transform: matrix(0.5, 0, 0, 0.5,0, 0); */
+
+    transform-origin: 100% 0%;
+    transform: rotate(0deg);
+
+
+    transform-o;
+}
