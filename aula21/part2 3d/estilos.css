@@ -1,0 +1,26 @@
+#dv1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+   
+    transform: translate(200px, 200px);
+    transform-origin: 200% 200%;
+    backface-visibility: visible;
+
+    /* backface-visibility: hidden; nao vejo nada*/
+
+    /*backface-visibility: visible; 3d padrao consigo ver a parte de tras  */
+   
+    /*transition: transform 0.1s ease;  Adicionando uma transição suave */
+
+    /* transform: rotateY(0deg); sempre funciona*/
+   /*  transform: translateZ(200px); */ 
+   /* transform: rotate3d(0deg, 45deg, 0deg); as vezes nao funciona*/
+   /* transform: rotateY(45deg); */
+}
+
+/*container da div é o body perspective: 15px; */
+
+body{
+    perspective: 750px; /*profundidade , se for zero muda nada*/
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curso css</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        var y, ny = 0, rotYINT;
+
+        function rotateYDIV() {
+            y = document.getElementById("dv1");
+            clearInterval(rotYINT);
+            rotYINT = setInterval(startYRotate, 10);
+        }
+
+        function startYRotate() {
+            ny = ny + 1;
+            y.style.transform = "rotateY(" + ny + "deg) translate(200px, 200px)";
+            
+            if (ny==180 || ny >= 360) {
+                clearInterval(rotYINT);
+                if(ny>= 360) (ny =0)
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="dv1" onclick="rotateYDIV()">
+        cfb
+    </div>
+</body>
+</html>
+
+<!--
+
+    transformacao 3D: Ocorre nos eixo x e y, como translacao, deslocar objeto
+    de um pro outro,  rodar e escalar. Fazer um script para demostar uma transformacao
+    3d em modo de animacao. Existe um eixo a mais o Z, posso controlar a rotacao
+    no x y e z.  transforme com rotate e xyz.
+
+-->
