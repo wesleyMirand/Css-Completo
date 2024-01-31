@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(209, 228, 101);
+}
+
+ol{
+    list-style: none; /* sem marcacao*/
+    padding: 0px;
+}
+
+li{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(226, 43, 43);
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #fff;
+
+}
+
+li:hover{
+    background-color: #f00;
+}
+
+a{
+    text-decoration: none; /* tira o sublinado */
+    color: #fff;
+}
