@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(209, 228, 101);
+}
+
+ul,ol{
+  /*  list-style-type: disc      os tracinho marcado fica 
+    com formato quadrado : square, circle sem prenchimento e 
+    disc com preenchimento 
+    list-style-image: url(ma.jpg); */
+
+    list-style: decimal-leading-zero outside; /* a meta propriedade diminui mesma coisa : list-style-type: list-style-position -> list-style: a mesma meta propriedade          ,position outside , inves de type e list vou usar tudo no  list-style*/
+    font-size: 25px;
+
+   /* list-style-position: inside; para o marcador fica dentro tenque ficar inside para dentro
+       list style position inside, outside padrao.
+       
+       outside fora inside dentro*/
+
+}
+
+li{
+    border: 1px #000000 solid; 
+}

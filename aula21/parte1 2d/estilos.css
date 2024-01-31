@@ -1,20 +1,32 @@
-#dv1{
+#dv1 {
     width: 200px;
     height: 200px;
     border: 1px solid #000;
-   /* transform: translate(0px, 0px);move*/
-   /*transform: rotate(0deg) ; gira*/
-   /*transform: scale(2); dobra*/
-   /*transform: skewX(20deg); */
-    /*transform: skewX(15deg) ; */
-    /*transform: skewX(-45degm 0deg) */
-    /*transform : matrix(scaleX, skewX, scaleY, translateX, translate ) */
+    
+    /* Mover */
+    /* transform: translate(0px, 0px); */
 
-    /*transform: matrix(0.5, 0, 0, 0.5,0, 0); */
+    /* Girar */
+    /* transform: rotate(0deg); */
 
+    /* Dobrar */
+    /* transform: scale(2); */
+
+    /* Inclinar horizontalmente */
+    /* transform: skewX(20deg); */
+
+    /* Inclinar verticalmente */
+    /* transform: skewY(15deg); */
+
+    /* Inclinar horizontal e verticalmente */
+    /* transform: skew(-45deg, 0deg); */
+
+    /* Usar a função matrix */
+    /* transform: matrix(0.5, 0, 0, 0.5, 0, 0); */
+
+    /* Definir o ponto de transformação no canto superior direito */
     transform-origin: 100% 0%;
-    transform: rotate(0deg);
 
-
-
+    /* Iniciar com rotação de 0 graus */
+    transform: rotate(15);
 }
