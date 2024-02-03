@@ -1,0 +1,29 @@
+table, td, th{
+    border: 1px solid #000;
+}
+
+table{ /* so aqui pq é so para tabela*/
+    width:500px ;
+    table-layout: fixed; /* deixa tudo do mesmo tamanho*/
+    border-collapse: separate;
+   /* empty-cells: hide; para celula vazia */
+}
+
+td, th {
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+th{
+    background-color: #8a8;
+    color: #fff;
+    font-size: 20px;
+}
+
+tr:nth-child(even) { /*zebra*/
+    background: #ddd;
+}
+
+p:nth-child(even){
+    background: #fda;
+}
