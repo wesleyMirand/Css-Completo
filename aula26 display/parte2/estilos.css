@@ -1,0 +1,39 @@
+div{
+    border: 1px solid #000;
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    display: table-cell; /* table cel se comporta como celula tabela td , vale pra esse elemento*/
+    text-align: center;
+    /*  vertical-align: middle;  middle meio vertical, bottom baixo */
+    line-height: 370px; /* tambem centraliza o elemento igual encima */
+    margin-bottom: 10px; /* distancia */
+    display: table-cell;
+} 
+
+ol, ul, li{
+    border: 1px solid #000;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+ol{
+    margin-top:10px ;
+    display: table;
+    width: 300px ;
+
+}
+
+ul{
+    display: table-row; /*linha*/
+}
+
+li{
+    display: table-cell; /*table cel */
+     text-align: center;
+}
+
+.titulo {
+    background-color: turquoise;
+}
