@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div{
+    float: left;
+   /* display: inline-block; */
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    background-color: blueviolet;
+    outline: #000 solid 10 px;
+
+  /*  outline-offset: 40px;
+  border: #f00 solid 1px */
+}
