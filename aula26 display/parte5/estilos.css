@@ -1,0 +1,75 @@
+section {
+    border: 3px solid #f00;
+    height: 200px;
+
+    display: flex; 
+
+
+    /*Quebra de linha */
+    flex-wrap: wrap;
+
+    /*alinhamento dos elemento: flex-start- esquerda , 
+    flex-end-direita, flex-center : centor , ALINHAMENTO HORIZONTAL */
+    justify-content: flex-start; 
+
+
+    /*Alinhamento vertifcal,flex-start- esquerda , 
+    flex-end-direita, flex-center : centor */
+    align-items: flex-start;
+
+
+    /*controla a direçao dos elemento padrao row, coluna column , 
+    column-reverse ou row podem usar*/
+    flex-direction: row;
+
+}
+
+div {
+    border: 1px solid #000;
+    height: 50px;
+
+
+    /*
+    flex:1;  usamos o elemento em si se ajustar com a largura
+
+    qual comportamento do elemento filho ao pai, 
+    vai expandir, contrair, espaço vazio? vai ocupar? dentro do elemento pai
+    flex-grow é o padrao do flex, nao precisa usar o  dois . Elemento estica 1,
+    nao estica 0. */
+    flex-grow: 1;
+
+    /* flex-shrink indica se o elemento vai ter capacidade de contrair, 1 contrai,
+    0 nao contrai.  */
+    flex-shrink: 0;
+    flex-basis: ;
+}
+
+#d1{
+    order: 2; /*ordem  elemento posso tipo order 1 pro order 6*/
+    flex-grow: 1; /*usa o espaço vazio */
+}
+
+#d2{
+    order: 1;
+    flex-basis: 25%; /* ocupa 25% do tamanho da div */
+}
+
+#d3{
+    order: 3;    
+    flex: 1 1 100%;
+}
+
+#d4{
+    order: 4; 
+    width:100px ;   
+}
+
+#d5{
+    order: 5;  
+    width:100px ;  
+}
+
+#d6{
+    order: 6;    
+    width:100px ;
+}
