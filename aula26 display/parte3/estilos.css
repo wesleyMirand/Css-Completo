@@ -1,0 +1,17 @@
+section {
+    border: 3px solid #f00;
+    display: flex; /* torna o elemento flex e os elemento ficam tambem um ao lado do outro bom para layout*/
+    display: -webkit-flex; /* para versoes de browser antiga*/
+    display: -moz-flex; /* para versoes de browser antiga*/
+   /* width: 800px; */
+    /* min-width: 500px; */
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap; /* nao faz quebra de linha nowrap, wrap faz a queda de linha*/
+}
+
+div {
+    border: 1px solid #000;
+    width: 100px;
+    /* flex: 1;  1 torna o elemento ajustado ao container largura responsive*/
+}
