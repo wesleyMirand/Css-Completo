@@ -1,0 +1,26 @@
+div, span{
+    border: 1px solid #000;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#d1{
+    display: block;
+    /*visibility: hidden; oculta o elemento o espaco ta la so nao visivel */
+    /* toda div tem display block elemento ocupa toda area na linha que se encontra,visi e dis pode usar tudo em js, display: none;   desabilita o elemento, existe mais nao renderiza mais esta la */
+}
+
+#s1{
+ display: inline;  /* display: inline;  o span ja tem todos elementos inline */  
+}
+
+#d2{
+    display: block; /* display: inline;  comportamento do inline */ 
+}
+
+#s2{
+    display: inline-block;   /* igual block  tamanho indicado*/   
+}
+
