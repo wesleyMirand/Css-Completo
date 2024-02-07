@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    border: 1px solid #000;
+    background: #ddd;
+}
+
+#dO{
+    width: 100px;
+    height: 500px;
+    background: #eef;
+    position: absolute;
+    top: 200px ;
+    left: 300px;
+}
+
+#d1, #d2 {
+    width: 300px;
+    height: 150px;
+}
+
+#d1{
+    position: static;
+}
+
+#d2{
+    position: fixed;
+    top: 50px ;
+    left: 50px ;
+}
