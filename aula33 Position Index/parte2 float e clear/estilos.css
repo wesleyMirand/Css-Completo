@@ -1,0 +1,23 @@
+img{
+    border: 1px  solid #000;
+}
+
+#img1{
+    float: left;     /* o texto esteja a direita e imagem a esquerda , float: left; 
+    e a esquerda: Right;      */
+}
+
+#img2{
+    float: right;
+}
+
+.fix{
+    clear: both;
+}
+
+/* float pode ser flutuante ou não. Indico como ele vai flutuar, o padrao é a imagem ir para baixo do texto, pq a imagem é block.
+e
+ clear: left; desce um pedaço do texto para baixo porem a imagem da direita permanece,
+ ai temos que usar o clear:both anula o efeito o float
+ 
+ */
