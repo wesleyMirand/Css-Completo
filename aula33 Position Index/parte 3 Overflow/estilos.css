@@ -1,0 +1,37 @@
+#d1{
+    border: 1px solid #000;
+    width: 300px;
+    height: 400px;
+    overflow: auto;
+}
+
+#img1 {
+    border: 1px solid #f00;
+}
+
+#d2{
+    border: 1px solid #000;
+    width: 300px;
+    height: 400px;
+    overflow: scroll;
+}
+
+#img2 {
+    border: 1px solid #f00;
+}
+
+/* excede o container da div : 
+#d1{
+    border: 1px solid #000;
+    width: 300px;
+    height: 400px;
+    overflow: visible
+}
+visibility padrao, oque excede ele mostra,  se eu por over: visible.. nao vai mudar 
+é padrao. porem se eu quiser oculta oque tiver para fora eu uso o hidden no overflow.
+Hidden valor oculto.
+Ja  o "SCROLL" mostra tudo com barra de rolagem, mesmo se nao precisar mostra.
+
+E auto ele ajuda de acordo com o conteudo, se precisar de barra ele mostra.
+
+*/
