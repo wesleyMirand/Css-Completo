@@ -1,0 +1,54 @@
+.cna::before{
+    color: blueviolet;
+    content: url(logo.jpg);
+}
+
+.cna::after{
+    
+    content: url(logo.jpg);
+}
+
+
+p{
+    font-size: 50px;
+}
+
+
+
+/* nao muda nada:
+
+p::before{
+    color: blueviolet;
+}
+
+para funcionar tenho que usar o content.  escolher o conteudo que vou usar 
+na esquerda.
+p::before{
+    color: blueviolet;
+    content: "cna-";
+}
+
+com img: 
+p::before{
+    color: blueviolet;
+    content: url(logo.jpg);
+}
+
+----------
+
+after: 
+p::after{
+    content: " - cna";
+}
+
+
+------ 
+por o cna vai perde tudo 
+p.cna::before{ 
+
+    porque nao fiz alteraca no after : p::after{
+agora quando eu tiver um elemento que receber a classe cna la no html : .cna::before{
+vai mostrar independente  se for h1 ou p.
+
+    
+*/
