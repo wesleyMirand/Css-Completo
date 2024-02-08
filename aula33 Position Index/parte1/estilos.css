@@ -8,15 +8,53 @@ div{
     background: #ddd;
 }
 
-#dO{
-    width: 100px;
+#d0{
+    width: 700px;
     height: 500px;
     background: #eef;
     position: absolute;
-    top: 200px ;
+    top: 150px ;
     left: 300px;
 }
 
+#d1, #d2 {
+    width: 300px;
+    height: 150px;
+}
+
+#d1{
+    position:absolute;
+    top: 50px ;
+    left: 50px ;
+    z-index: 2;
+}
+
+#d2{
+    position:absolute;
+    top: 70px ;
+    left: 70px ;
+    z-index:1;
+}
+
+/* position : static é o padrao, static posiciona todos elemento de acordo o elemento anterior desde que seja
+display block.
+
+Static nao da pra definir o elemento, É padrao nao precisa de top nem left. posiciona igual o elemento anterior.
+
+
+absolute consigo determina uma posicao pro elemento, relacao ao container o quadrado azul.
+
+top é a distancia do elemento da margem superior la encima ___________
+
+e o left da margem  esquerda   |   <- 
+
+quanto maior o elemento top, a distancia é maior e desce na pagina. que equivale ao eixo "Y"
+se for negativo inves de descer ele sobe  
+
+e o left quanto maior o elemento , -> mais distante vai ficar fica da margem esquerda.
+se for negoativo ele vai mais pra esquerda <-
+
+normalmente nao se usa : 
 #d1, #d2 {
     width: 300px;
     height: 150px;
@@ -27,7 +65,51 @@ div{
 }
 
 #d2{
-    position: fixed;
+    position: absolute;
+    top: 1px ;
+    left: 301px ;
+} 
+
+com layouts responsivo! 
+absolute posiciona em relacao ao container dele,  D0 é o container. 
+
+#d1{
+    position:absolute;
+    top: 50px ;
+    left: 50px ;position: static;
+}
+
+#d2{
+    position:absolute;
     top: 50px ;
     left: 50px ;
 }
+ficam uma encima da outra
+
+---------------------
+
+relative posiciona em relacao ao container, anterior.desde que o posicion anterior d1 seja static. Se nao
+as duas vao ficar no d0.container das duas.
+-------------
+
+relacao ao body
+Ja o fixed, a d2 nao interessa o elemento anterior, nem o container, so a janela, independente da posição.
+d2 vai seguir sempre a janela.150px em relacao ao body elemento, anterior a ele. mesmo o d2 dentro do body, ele ignora ele. pq ele é fixo
+
+-----------
+
+z-index: fica sempre o z-index maior na frente
+#d1{
+    position:absolute;
+    top: 50px ;
+    left: 50px ;
+    z-index: 2;
+}
+
+#d2{
+    position:absolute;
+    top: 70px ;
+    left: 70px ;
+    z-index:1;
+}
+*/
