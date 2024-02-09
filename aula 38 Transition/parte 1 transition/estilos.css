@@ -1,0 +1,64 @@
+p{
+    width: 400px;
+    height: 250px ;
+    border: 1px solid #000; 
+    border-radius: 10px;/*arendondamento */
+    padding: 10px; /*imagem interna */
+    text-align: justify; /*alinhamento */
+    transition: width 2s, height 3s, background-color 3s, color 2s ;  /* tempo de altura e largura */
+    transition-timing-function: ; /*  ease é o padrao, nao muda nada. Ja o linear toda movimentacao
+    vai ser constante, mantem a animacao na mesma velocidade.
+    ease-in: começa devar e termina rapido. aumentando a velocidade
+    ease-out: comeca rapido e termina deagar.
+    cubic-bezier(0.5,0,0.5,0) quatro valores, x y 1 , x y 2
+    (1,0.5,1,0.5) comeca linear e no final acelera.
+    (0, 0.5, 1, 0,5)comeca rapido diminui e termina rapido
+
+
+    1---------0
+    |         |
+    |         | <velocidade eixo y
+    0---0,5---1
+tempo time^da animacao
+
+quando a animacao é linear termina e comeca no mesmo tempo, nunca altera, velocidade constante.
+
+ease-in :     
+    1---------0
+    |         |       
+    |         | <velocidade eixo y
+    0---0,5---1
+tempo time^da animacao
+
+ease-out:
+
+    1---------0
+    |         |
+   0,5        |
+    |         | <velocidade eixo y
+    0---0,5---1
+tempo time^da animacao
+
+ease-in-out: comeca devagar acelera e termina devagar
+
+        x
+   y1---0,5----0
+    |         |
+   0,5        |
+  y |         | <velocidade eixo y
+    0---0,5---1
+      x
+tempo time^da animacao
+   
+
+    */
+}
+
+
+/*disparador evento over ao passar o mouse encima */
+p:hover{
+    width: 700px; /*vai alter o tamanho */
+    height: 120px; /*vai alterar altura */
+    background-color: #f00; /*cor de fundo pra vermelhor */
+    color: #fff;
+}

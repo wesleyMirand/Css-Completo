@@ -1,0 +1,46 @@
+p {
+    font-size: 40px;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: rgb(17, 0, 255);
+}
+
+p::first-line{
+    background: rgb(43, 255, 0);
+}
+
+::selection{
+    color:rgb(255, 0, 170) ;
+    background: rgb(25, 0, 255);
+}
+
+
+/*  Para a primeira letra ficar vermelha e todos p tamanho 40px, podia ser qualquer elemento de texto :
+p::first-letter{
+    font-size: 40px;
+    color: #f00;
+}
+
+-------
+
+Agorao line  formatacao primeira linha do texto:
+p::first-line{
+    background: #ff0;
+} 
+toda primeira linha fica amarelo de todos p.
+
+-----------
+
+Selection para pagina nao indico para elemento direto pagina 
+formata para o texto o texto selecionado, letra verde e fundo vermelho:
+
+::selection{
+    color:#0f0 ;
+    background: #f00;
+}
+
+
+
+*/
