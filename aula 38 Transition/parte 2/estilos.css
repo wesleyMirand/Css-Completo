@@ -1,0 +1,19 @@
+p{
+    width: 400px;
+    height: 250px ;
+    border: 1px solid #000; 
+    border-radius: 10px;/*arendondamento */
+    padding: 10px; /*imagem interna */
+    text-align: justify; /*alinhamento */
+    transition: width 2s, height 3s, background-color 3s, color 2s, transform 1s ;  /* tempo de altura e largura */
+    transition-timing-function: linear;
+    transition-delay: 0s; /* atrasa para abrir */
+}
+
+
+/*disparador evento over ao passar o mouse encima */
+p:hover{
+    transform: rotate(360deg);
+    background-color: #f00; /*cor de fundo pra vermelhor */
+    color: #fff;
+}
