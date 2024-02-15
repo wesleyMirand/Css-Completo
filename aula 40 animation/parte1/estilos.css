@@ -31,7 +31,7 @@ p{
     padding: 10px;
     text-align: justify;
     animation-name: anima1, anima2, anima3, anima4;
-    animation-duration: 3s;
+    animation-duration: 3s; 
     animation-timing-function: linear;
     animation-delay: 0s, 2s, 4s, 6s;
     color: blue;
