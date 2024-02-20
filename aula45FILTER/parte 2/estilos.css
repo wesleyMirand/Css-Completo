@@ -1,0 +1,39 @@
+img{
+    width: 100gpx;
+    filter:  sepia(100%); 
+    /* escala de cinza grayscale(1) ou (100%) filter, 
+    filtro de porcentagem,0 a 100% o maximo ou 0 a 1, quero a imagem cinza, a metade (50 %).
+    blur: embassamento, trabalho com pixel (5px).
+    brightness: brilho, porcentagem(10%) (1.5) (2)=200% .
+    contraste:(2) é em porcentagem, 1, 100%, 1.5., 200 ...
+    drop-shadow: Sombra projetada, preciso de propriedades pra gerar a sombra.
+    distancia horizontal, vertical, tamanho e cor. 
+    (distX, distY, tam, cor)
+    (10px   10px  15px  #00f); 
+    (10px   10px   5px  #00f); deslocamento 
+    (20px   10px   5px  #00f); pra direita
+    (20px   20px   5px  #00f);  descer 
+    (10px   10px   20px #00f); sombra dura
+    (0px    0px    20px #00f);
+    (0px 0px 5px #f00)
+    body{
+    background: #000;
+}
+img{
+    filter: drop-shadow(0px 0px 10px #d1e614) 
+     
+    ---------------------------------------------------
+    hue-rotate(0)
+    (180deg)
+         0 graus rotacao matiz padrao, quanto maior maior mais rodacao
+
+    -------------------------------------------------------
+    invert(0) : inverte as cores da imagem , invert.
+
+    opacity (0.5) ou (100%): metade opacidade transparencia , maior menos , menor mais transparente.
+
+    saturation(50%) : controla saturacao da imagem forte cor mais forte. (100%normal)
+
+    sepia(100%) : efeito envelhecido.
+    */
+}
