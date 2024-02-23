@@ -29,7 +29,7 @@ body{
 */
 
 /* smartphone, portrait, landscape */
-@media screen and (max-width:400px) and (orientation: portrait ) {
+@media screen and (max-width:400px) and (orientation: portrait ) { /*dispositivo deitado */
     body{
         background: #a7089f;
     }
@@ -38,7 +38,7 @@ body{
     }
 }
 
-@media screen and (max-width:400px) and (orientation: landscape ) {
+@media screen and (max-width:400px) and (orientation: landscape ) { /* dispositivo em pe */
     body{
         background: #ac0d5c;
     }
