@@ -32,10 +32,16 @@ article{
         text-align: justify;
     }
     nav li {
-        font-size:30px;
+        font-size:25px;
     }
 }
 
 @media screen and (min-widht: 501px) and (max-width:800px){
     
+    nav li{
+        font-size: 25px;
+    }
+    article div{
+        float: left;
+    }
 }
