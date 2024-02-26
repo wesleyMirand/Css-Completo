@@ -1,14 +1,15 @@
-nav{
-    width: 100px;
+nav {
+    width: 200px;
     float: left;
 }
-nav ul{
+
+nav ul {
     margin: 0;
     padding: 0;
 }
 
-nav li{
-    background: #D55;
+nav li {
+    background: rgb(110, 41, 101);
     color: #FFF;
     border: #ddd solid 1px;
     border-radius: 4px;
@@ -17,31 +18,33 @@ nav li{
     padding: 2px;
 }
 
-article{
+article {
     margin-left: 210px;
 }
 
-@media screen and (min-widht: 0px) and (max-width:500px){
-    nav{
+@media screen and (max-width: 500px) {
+    nav {
         width: 100%;
+        float: none; /* Para evitar que o nav flutue e empurre o article quando a tela for estreita */
     }
-    article{
-        margin-left: 2px;
+    article {
+        margin-left: 4px;
     }
     article p {
         text-align: justify;
     }
     nav li {
-        font-size:25px;
+        font-size: 25px;
     }
 }
 
-@media screen and (min-widht: 501px) and (max-width:800px){
-    
-    nav li{
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    nav li {
         font-size: 25px;
     }
-    article div{
-        float: left;
+    article div {
+        display: inline-block; /* Para os elementos div ficarem lado a lado */
+        width: 45%; /* Ajuste conforme desejado */
+        margin-right: 5px; /* Adiciona um espaço entre os elementos */
     }
 }
