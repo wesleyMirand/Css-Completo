@@ -1,0 +1,112 @@
+/* reset basico */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-size: 100%;
+    background: transparent;
+    box-sizing: border-box;
+    color: #000;
+}
+
+body{
+    background-color: #fff;
+    overflow: scroll;
+    overflow: hidden;
+}
+
+/* HEADER */
+header, section, footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header{
+    background: #000;
+    align-items: center;
+}
+
+header img{
+    width: 301px;
+    height: 111px;
+    margin: 10px 0px;
+}
+
+header nav{
+    display: flex;
+}
+
+.btmenu{
+    text-decoration: none;
+    display: flex;
+    width: 120px;
+    height: 30px;
+    margin: 2px;
+    padding: 1px 5px 1px 5px;
+    background-color: #222;
+    border-radius: 10px;
+    color: #bbb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    border: 0px;
+    text-transform: uppercase;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btmenu:hover{
+    background-color: #c22;
+    color: #fff;
+}
+
+.banner{
+    padding: 0px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador{
+    margin: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buescador p{
+    width: 800px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.buscador form{
+    width: 800px;
+    border: 1px solid #888;
+    padding: 10px;
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destaque{
+    margin: auto;
+    padding: 50px;
+    background: #000;
+    border-radius: 100%;
+}
+
+.destaque:hover{
+    background: #c22;
+}
+
+footer{
+    margin-top: 10px;
+    background: #222;
+    padding: 20px;
+}
