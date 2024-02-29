@@ -1,0 +1,13 @@
+p{
+    font-size: 20px; /* quantidade maior que a px da dela, 0.5 meio pixel,
+    16px tam padrao das fonte.
+    EM: não e exclusiva da fonte, so usa o tamanho de referencia,
+    p filho do body , body filho do html pai de todos.
+    ex: html {
+        font-size:30px
+    }
+    todos elemento html vao ter tamanho 30. 
+    
+    se eu por font-size:1em; nao vai mudar nada*/
+    
+}
