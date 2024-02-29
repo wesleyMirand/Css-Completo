@@ -1,13 +1,79 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    font-size: 2em; /* 40px */
+}
+
+div{
+    display: inline-block;
+    width: 300px;
+}
+
+#d1{
+    border: 1px solid #f00;
+    height: 2em; /*80px*/
+}
+
+#d2{
+    border: 1px solid #00f;
+    height: 80px;
+}
+
 p{
-    font-size: 20px; /* quantidade maior que a px da dela, 0.5 meio pixel,
+    font-size: 20px; /* tam da fonte do elemento pai x 2 */
+}
+
+#p3{
+    font-size: 20px;
+    color: #f00;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    /* quantidade maior que a px, 0.5 meio pixel,
     16px tam padrao das fonte.
-    EM: não e exclusiva da fonte, so usa o tamanho de referencia,
+    EM: não e exclusivo da fonte, so usa o tamanho de referencia,
     p filho do body , body filho do html pai de todos.
     ex: html {
-        font-size:30px
+        font-size:20px
     }
-    todos elemento html vao ter tamanho 30. 
+    todos elemento html vao ter tamanho 30.  
+    body{
+        font-size:2em;           2 vezes 20 o tamanho pai.
+
     
-    se eu por font-size:1em; nao vai mudar nada*/
-    
-}
+    se eu por font-size:1em; nao vai mudar nada!
+    agora se for 2em vai ser 60px , vezes2x elemento pai30.
+
+    #p3 {
+        font-size:30px;
+    } elemento de controle, manualmente, esta no tamanho do elemento anterior.
+
+    div{
+        display: inline-block;
+        width:300px;
+    }
+
+    #d1{ vai ser 80px porque o o body ja esta com 40 ai usa 2em.
+        border:1px solid #f00;
+        height:2em;
+    }
+
+    #d2{
+        border:1px solid #0f0;
+        height:40px; se for 80 vai ficar as duas com tamanho igual
+    }
+    as duas do mesmo tamanho, relativo a EM, por ser definida no html.
+    sempre vai ser em relacao ao pai.
+
+
+
+    */
