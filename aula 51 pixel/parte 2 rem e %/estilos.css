@@ -13,14 +13,23 @@ div{
 
 #d1{
     border: 1px solid #f00;
-    height: 1em; /*2-80px , 1- 40px*/
+    height: 1em; /*2-80px , 1- 40px  é o 2em do body vezes 20 do pai html. */
 }
 
 #d2{
     border: 1px solid #00f;
-    height: 40px;
+    height: 1rem; /*o rem tem unidade em relacao ao ponte, invez so pai body, vai 
+    direto pra raiz a html. 1 rem vai ficar com 20px. 1 vez o tam do elemento raiz.
+    se 2 rem vai ser 40px */
 }
+/*       
+ border: 1em solid #00f; expressura grande.
+height: 1rem;       20px
 
+unidades de medidas qualquer elemento, so tenque ver a relacao entre
+pai e filho
+
+*/
 p{
     font-size: 20px; /* tam da fonte do elemento pai x 2 */
 }
