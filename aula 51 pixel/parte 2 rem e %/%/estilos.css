@@ -1,0 +1,38 @@
+html{ /* pai de todos*/
+    font-size: 20px;
+}
+
+body{ /* 2 em */
+    font-size: 2em; /* 40px */
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    width: 300px; 
+}
+
+#d1{
+    border: 1px solid #f00;
+    width: 250px;
+    height: 250px; /* div quadrada de 250 por 250 */ 
+}
+
+#d2{
+    border: 1px solid #00f;
+    width: 100px;
+    height: 100px; 
+}
+
+p{
+    font-size: 20px; 
+}
+
+#p3{
+    font-size: 20px;
+    color: #f00;
+}
+
+/* em relacao tamanho da fonte do elemento pai,
+rem fonte elemento raiz,
+% tamanho do elemento pai, se a largura for 100% vai ocupar 100% da largura*/
