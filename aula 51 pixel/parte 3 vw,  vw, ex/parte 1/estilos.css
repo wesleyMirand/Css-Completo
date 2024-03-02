@@ -1,0 +1,34 @@
+body{ 
+    margin: 0px;
+    padding: 0px; 
+    overflow: hidden; /* fica do tamanho da tela */
+    font-size: 30px;
+    font-family: Arial; /* a formatacao passa a ser em relacao ao tamanho da ex, a fonte arial */
+}
+
+#d1{
+    border: 1px solid #f00;
+    width: 90vw;  
+    height: 90vh; 
+
+    /* largura 1 porcento da tela, vw é 1% de 100  da largura da janela */
+    /* altura 1 porcento da janela , altura da janela*/
+    /* 
+    unidades de medidas:
+     width: 90vw;
+     height: 90vh; fica quase cheio na tela e se redimensiona junto com a tela.
+
+    width: 100vw; cobre toda a tela 1 a azul e a outra vermelha fica no meio
+    height: 100vh;
+
+    A "EX" é semelhante a "EM"
+
+    */
+}
+
+
+#d2{
+    border: 1px solid #00f;
+    width: 50%;
+    height: 50%; 
+}

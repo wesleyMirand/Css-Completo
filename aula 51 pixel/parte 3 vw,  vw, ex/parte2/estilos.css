@@ -1,0 +1,34 @@
+body{ 
+    margin: 0px;
+    padding: 0px; 
+    overflow: hidden; 
+    font-size: 20px;
+    font-family: Arial;
+}
+
+div, p{ /* formatacao para div fica ao lado da outra */
+    display: inline-block;
+}
+
+p{
+    font-size: 10em;
+}
+
+#d1{ /* separadas  DIV 1 TA USANDO O EX*/
+    border: 1px solid #f00;
+    width: 10ex;  /* A EX TA EM RELACAO A SIZE COM RELACAO A LETRA MINUSCULA, POR ISSO, ELE TA MENOR. TODOS TEM A MESMA FORMATACAO,  */ 
+    /* EM RELACAO AO TAMANHO DA LETRA X DE ACORDO COM ELEMENTO, TODA LETRAS FICAM MINUSCULA.
+    BASICAMENTE FICA, A LETRA MINUSCULA TA MAIOR, ELE LEVA EM CONSIDERACAO A X.
+    */
+    height: 10ex;  /* AMBOS LEVAM CONSIDERACAO O TAM DO ELEMENTO PAI, SO QUE EX LEVA EM CONSIDERACAO AS FONTES MINUSCULA.
+    E EM LEVA CONSIDERACAO O TAM MAXIMO MAIUSCULO. */
+
+}
+
+/* vai ser diferente DIV 2 TAUSANDO O EM */
+
+#d2{
+    border: 1px solid #00f;
+    width: 10em;  /* ELEMENTO PAI BODY, SIZE 20 , A DIV ESTA COM O TAMANHO 200, 200 ALTURA 200 LARGURA*/
+
+}
