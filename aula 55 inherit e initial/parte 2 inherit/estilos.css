@@ -1,0 +1,32 @@
+*{ /* formatacao padrao, todos elemento */
+      color: #000;
+}
+
+html{
+      color: #f00;
+}
+
+body{
+      color: #0F0;
+}
+
+#d1{
+      color: #000;
+}
+
+#d2{
+      color: #d60f0f;
+}
+
+#d3{
+      color: #d60fbb;
+}
+
+
+div{
+      color: #00f;
+}
+
+h1, p{
+      color: inherit;
+}
